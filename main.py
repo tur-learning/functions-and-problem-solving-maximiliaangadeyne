@@ -6,3 +6,7 @@ BMRM = (13.7516 * weight) + (5.0033 * height) - (6.755 * age) + 66.473
 BMRW = (9.5634 * weight) + (1.8496 * height) - (4.6756 * age) + 66.473
 
 print("Your BMRM is:", BMRM, ",", "while your BMRW is:", BMRW)
+
+chocolate_calories = 214
+print(BMRM / chocolate_calories, "chocolate bars would be needed to mantain this BMR for a man")
+print(BMRW / chocolate_calories, "chocolate bars would be needed to mantain this BMR for a woman")
